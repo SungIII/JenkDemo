@@ -24,7 +24,7 @@ pipeline {
             echo "done!"
         }
         failure {
-            echo "error"
+            echo "error!"
         }
     }
 }
