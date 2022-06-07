@@ -1,5 +1,5 @@
 pipeline {
-    agent {label "AWSNode}
+    agent {label "AWSNode"}
 
     stages {
         stage('Build') {
