@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                build 'maven_test'
+                build 'mavenDemo'
             }
         }
         stage('Deploy') {
