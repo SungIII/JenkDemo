@@ -2,29 +2,10 @@ pipeline {
     agent {label "AWSNode"}
 
     stages {
-        stage('Build') {
+        stage('Hello') {
             steps {
-                echo 'Building..'
+                echo 'Hello World'
             }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-                build 'mavenDemo'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
-    }
-    post {
-        always {
-            echo "done"
-        }
-        failure {
-            echo "error"
         }
     }
 }
