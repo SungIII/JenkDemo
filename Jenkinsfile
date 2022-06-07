@@ -2,9 +2,9 @@ pipeline {
     agent {label "AWSNode"}
 
     stages {
-        stage('Hello') {
+        stage('Test') {
             steps {
-                echo '202206071247'
+                echo '202206071355'
             }
         }
     }
