@@ -21,10 +21,10 @@ pipeline {
     }
     post {
         always {
-            echo "done!"
+            echo "done"
         }
         failure {
-            echo "error!"
+            echo "error"
         }
     }
 }
